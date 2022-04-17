@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -14,7 +14,7 @@ ReactDOM.render(
     <React.StrictMode>
       <Routes>
         <Route path="/" element={<App />} >
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="" element={<Home />} />
           <Route exact path="menu" element={<Menu />} />
           <Route path="menu/:menuItem" element={<MenuItem />} />
           <Route path="about" element={<About />} />
