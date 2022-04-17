@@ -1,6 +1,7 @@
 function Home() {
   return (
     <main>
+      <br></br>
       <fieldset>
         <h1>Home</h1>
       

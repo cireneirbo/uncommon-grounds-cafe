@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body {
+  /* background-image: url("../public/satelliteoverearth.png");
+  background-size: auto;
+  background-attachment: fixed; */
+  margin: 0%;
+  padding: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+fieldset {
+  border: 1px solid rgb(0, 0, 0);
+  background: #ddd;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.80;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  word-wrap: break-word;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5%;
+  text-align: left;
 }
