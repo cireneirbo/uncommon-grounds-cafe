@@ -1,30 +1,25 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+import Data from './Data';
 
 function Menu() {
-
-  
-  // const backendURL = "http://localhost:9000/menu/check";
-  // const frontendURL = "http://localhost:3000/menu/";
 
   const [ isProcessed, setIsProcessed ] = useState(false);
 
   const [ data, setData ] = useState("");
 
-  // useEffect(() => {
-  //   if(isProcessed == false) {
-  //     axios.get(backendURL)
-  //     .then(res => {
-  //       setData(res.data);
-  //     }).catch(err => {
-  //       console.log(err);
-  //     });
-  //     return setIsProcessed(true);
-  //   }
-  // }, []);
-  // console.log(data)
+  useEffect(() => {
+    if(isProcessed === false) {
+      try{
+        setData(Data);
+      } catch {
+        console.log("Something went wrong! We failed at retrieving our own data...");
+      };
+      return setIsProcessed(true);
+    }
+  }, []);
+  console.log(data)
 
-  if(data == "") {
+  if(data === "") {
     return (
       <main>
         <fieldset>
@@ -37,6 +32,7 @@ function Menu() {
       <main>
         <fieldset>
 
+          <p>{data.menu[0].title}</p>
           {/* <h1>{data.title}</h1>
 
           <p>{data.events.description}</p>

@@ -16,7 +16,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} >
           <Route exact path="" element={<Home />} />
           <Route exact path="menu" element={<Menu />} />
-          <Route path="menu/:menuItem" element={<MenuItem />} />
+          {/* <Route path="menu/:menuItem" element={<MenuItem />} /> */}
           <Route path="about" element={<About />} />
           <Route
             path="*"
