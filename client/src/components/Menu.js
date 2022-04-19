@@ -32,7 +32,49 @@ function Menu() {
       <main>
         <fieldset>
 
-          <p>{data.menu[0].title}</p>
+          <h1>{data.menu[0].title}</h1>
+
+          <p>{data.menu[0].description}</p>
+
+          {/* <fieldset> */}
+            <table>
+              <tr>
+                <th>Bagels</th>
+                
+                {data.menu[0].bagels.map(bagel => (
+              
+                  <td key={bagel.id}>{bagel}</td>
+                  
+                ))}
+              </tr>
+
+
+
+              <tr>
+                <th>Cheeses</th>
+
+                {data.menu[0].cheeseFlavors.map(cheese => (
+              
+                  <td key={cheese.id}>{cheese}</td>
+                  
+                  
+                ))}
+
+              </tr>
+              
+            
+            
+            
+            
+              
+            
+            
+            
+            </table>
+            
+            
+          {/* </fieldset> */}
+
           {/* <h1>{data.title}</h1>
 
           <p>{data.events.description}</p>
