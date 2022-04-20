@@ -33,72 +33,36 @@ function Menu() {
         <fieldset>
 
           <h1>{data.menu[0].title}</h1>
-
           <p>{data.menu[0].description}</p>
 
-          {/* <fieldset> */}
-            <table>
-              <tr>
-                <th>Bagels</th>
-              </tr>
-              <tr>
-                
-
-                {data.menu[0].bagels.map(bagel => (
-              
-                  <td key={bagel.id}>{bagel}</td>
-                  
-                ))}
-              </tr>
-
-<hr></hr>
-
-              <tr>
-                <th>Cheeses</th>
-
-                {data.menu[0].cheeseFlavors.map(cheese => (
-              
-                  <td key={cheese.id}>{cheese}</td>
-                  
-                  
-                ))}
-
-              </tr>
-              
-            
-            
-            
-            
-              
-            
-            
-            
-            </table>
-            
-            
-          {/* </fieldset> */}
-
-          {/* <h1>{data.title}</h1>
-
-          <p>{data.events.description}</p>
-
-          <table>
-            <tr>
-              <th>ID</th>
-              <th>Title</th>
-              <th>Category</th>
-              <th>Sources</th>
-            </tr>
-            {data.events.events.map(event => (
-              <tr key={event.id}>
-                <td><a href={`${frontendURL}${event.id}`}>{event.id}</a></td>
-                <td>{event.title}</td>
-                <td>{event.categories[0].title}</td>
-                <td><a href={event.sources[0].url}>{event.sources[0].id}</a></td>
-              </tr>
+          <h3>Bagels</h3>
+          <ul>
+            {data.menu[0].bagels.map(bagel => (
+              <li key={bagel.id}>{bagel}</li>
             ))}
-          </table> */}
+          </ul>
 
+          <h3>Prices</h3>
+          <ul>
+            {data.menu[0].sizes.map(size => (
+              <li key={size.id}>{size[0]} - {size[1]}</li>
+            ))}
+          </ul>
+          
+          <h3>Spreads</h3>
+          <ul>
+            {data.menu[0].toppings.map(topping => (
+              <li key={topping.id}>{topping[0]} - {topping[1]}</li>
+            ))}
+          </ul>
+
+          <h3>Cheeses</h3>
+          <ul>
+            {data.menu[0].cheeseFlavors.map(cheese => (
+              <li key={cheese.id}>{cheese}</li>
+            ))}
+          </ul>
+          
         </fieldset>
       </main>
     );

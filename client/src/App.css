@@ -36,3 +36,14 @@ th, td {
   margin: 5%;
   text-align: center;
 }
+hr {
+  margin: auto;
+}
+
+li { 
+  display:inline; 
+  margin-left: 1%;
+  margin-bottom: 1%;
+  word-wrap:break-word; 
+  list-style-type: none;
+}
