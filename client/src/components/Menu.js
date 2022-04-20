@@ -40,7 +40,10 @@ function Menu() {
             <table>
               <tr>
                 <th>Bagels</th>
+              </tr>
+              <tr>
                 
+
                 {data.menu[0].bagels.map(bagel => (
               
                   <td key={bagel.id}>{bagel}</td>
@@ -48,7 +51,7 @@ function Menu() {
                 ))}
               </tr>
 
-
+<hr></hr>
 
               <tr>
                 <th>Cheeses</th>
