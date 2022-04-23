@@ -64,6 +64,20 @@ function Menu() {
           </ul>
           
         </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[1].title}</h1>
+          <p>{data.menu[1].description}</p>
+
+          <h3>Bagel Sandwiches</h3>
+          <ul>
+            {data.menu[1].bagelSandwiches.map(bagelSandwich => (
+              <li key={bagelSandwich.id}>{bagelSandwich[0]} - {bagelSandwich[1]}</li>
+            ))}
+          </ul>
+          
+        </fieldset>
       </main>
     );
   }
