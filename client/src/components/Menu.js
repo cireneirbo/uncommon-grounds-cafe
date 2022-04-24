@@ -69,11 +69,36 @@ function Menu() {
 
           <h1>{data.menu[1].title}</h1>
           <p>{data.menu[1].description}</p>
-
-          <h3>Bagel Sandwiches</h3>
           <ul>
             {data.menu[1].bagelSandwiches.map(bagelSandwich => (
               <li key={bagelSandwich.id}>{bagelSandwich[0]} - {bagelSandwich[1]}</li>
+            ))}
+          </ul>
+          
+        </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[2].title}</h1>
+          <p>{data.menu[2].description}</p>
+          <ul>
+            {data.menu[2].proteins.map(protein => (
+              <li key={protein.id}>{protein}</li>
+            ))}
+          </ul>
+          <ul>
+            {data.menu[2].cheeses.map(cheese => (
+              <li key={cheese.id}>{cheese}</li>
+            ))}
+          </ul>
+          <ul>
+            {data.menu[2].garnishes.map(garnish => (
+              <li key={garnish.id}>{garnish}</li>
+            ))}
+          </ul>
+          <ul>
+            {data.menu[2].condiments.map(condiment => (
+              <li key={condiment.id}>{condiment}</li>
             ))}
           </ul>
           
