@@ -83,7 +83,7 @@ function Data() {
         },
         {
           "title": "Salads",
-          "descriptions": "Lettuce Sourced from Feisty Fern Farms",
+          "description": "Lettuce Sourced from Feisty Fern Farms",
           "salads": [
             ["Greek", 6.50], 
             ["Caesar", 6.50], 
@@ -96,7 +96,6 @@ function Data() {
             "Tuna Salad (house-made)",
             "Chicken Salad (house-made)",
           ],
-          "addDressing": "Dressings",
           "dressings": [
             "Homemade Balsamic Vinaigrette",
             "Caesar",
