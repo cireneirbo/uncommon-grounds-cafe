@@ -144,9 +144,89 @@ function Menu() {
             ))}
           </ul>
           
-        
+        </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[5].title}</h1>
+          <p>{data.menu[5].description}</p>
+          <ul>
+            {data.menu[5].soupSizes.map(soupSize => (
+              <li key={soupSize.id}>{soupSize[0]} - {soupSize[1]}</li>
+            ))}
+          </ul>
+          <p>{data.menu[5].currentChoice}</p>
           
         </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[6].title}</h1>
+          <p>{data.menu[6].description}</p>
+         
+          <h3>{data.menu[6].titleTeas}</h3>
+          <ul>
+            {data.menu[6].teas.map(tea => (
+              <li key={tea.id}>{tea[0]} - {tea[1]}</li>
+            ))}
+          </ul>
+          <ul>
+            {data.menu[6].teaFlavors.map(teaFlavor => (
+              <li key={teaFlavor.id}>{teaFlavor}</li>
+            ))}
+          </ul>
+
+          <h3>{data.menu[6].titleCoffees}</h3>
+          <ul>
+            {data.menu[6].coffees.map(coffee => (
+              <li key={coffee.id}>{coffee[0]} - {coffee[1]}</li>
+            ))}
+          </ul>
+          
+        </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[7].title}</h1>
+          <p>{data.menu[7].description}</p>
+         
+          <h3>{data.menu[7].titleIcedDrinks}</h3>
+          <ul>
+            {data.menu[7].icedDrinks.map(icedDrink => (
+              <li key={icedDrink.id}>{icedDrink[0]} - {icedDrink[1]}</li>
+            ))}
+          </ul>
+
+          <h3>{data.menu[7].titleBlends}</h3>
+          <ul>
+            {data.menu[7].blends.map(blend => (
+              <li key={blend.id}>{blend[0]} - {blend[1]}</li>
+            ))}
+          </ul>
+
+          <h3>{data.menu[7].titleSmoothies}</h3>
+          <p>{data.menu[7].descriptionSmoothies[0]} - {data.menu[7].descriptionSmoothies[1]}</p>
+          <ul>
+            {data.menu[7].smoothies.map(smoothie => (
+              <li key={smoothie.id}>{smoothie}</li>
+            ))}
+          </ul>
+          
+        </fieldset>
+
+        <fieldset>
+
+          <h1>{data.menu[8].title}</h1>
+          <p>{data.menu[8].description}</p>
+          <ul>
+            {data.menu[8].desserts.map(dessert => (
+              <li key={dessert.id}>{dessert[0]} - {dessert[1]}</li>
+            ))}
+          </ul>
+          
+        </fieldset>
+
+
       </main>
     );
   }

@@ -166,8 +166,8 @@ function Data() {
         },
         {
           "title": "ColdDrinks",
-          "description": "",
-          "titleBlended": "Blended",
+          "description": "Beat the heat with one of our signature blends.",
+          "titleBlends": "Blends",
           "blends": [
             ["Espresso Frappe", 4.05, 4.50],
             ["Espresso Frappe with Oreo", 4.10, 4.85],
