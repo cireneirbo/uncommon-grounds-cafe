@@ -16,7 +16,8 @@ function About() {
           <p>
             We are a shadowy phantom created by our <a href='https://twitter.com/kalefice' target='_blank' rel="noreferrer">developer</a>. Pray for us.
           </p>
-
+        
+          
       </fieldset>
         
     </main>

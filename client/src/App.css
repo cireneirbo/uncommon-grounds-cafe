@@ -41,9 +41,21 @@ hr {
 }
 
 li { 
-  display:inline; 
+  display:inline-block; 
   margin-left: 1%;
   margin-bottom: 1%;
-  word-wrap:break-word; 
+  margin-right: 1%;
+  margin-top: 1%;
+  word-wrap: normal;
   list-style-type: none;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: darkgrey;
+}
+
+a {
+  color: rgb(12, 119, 138);
 }

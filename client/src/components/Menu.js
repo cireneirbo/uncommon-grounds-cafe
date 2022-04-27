@@ -35,14 +35,17 @@ function Menu() {
           <h1>{data.menu[0].title}</h1>
           <p>{data.menu[0].description}</p>
 
-          <h3>Bagels</h3>
+          <h3>Types</h3>
           <ul>
+          <h3>Types</h3>
             {data.menu[0].bagels.map(bagel => (
               <li key={bagel.id}>{bagel}</li>
             ))}
           </ul>
 
-          <h3>Prices</h3>
+          <h3>Prices{data.menu[0].sizes.map(size => (
+              <li key={size.id}>{size[0]} - {size[1]}</li>
+            ))}</h3>
           <ul>
             {data.menu[0].sizes.map(size => (
               <li key={size.id}>{size[0]} - {size[1]}</li>
