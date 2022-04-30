@@ -173,7 +173,7 @@ function Data() {
             ["Espresso Frappe with Oreo", 4.10, 4.85],
           ],
           "titleSmoothies": "Smoothies",
-          "descriptionSmoothies": ["*Smoothies are blended with real fruit and sweetened with a touch of honey*", 5.75],
+          "descriptionSmoothies": ["Smoothies are blended with real fruit and sweetened with a touch of honey", 5.75],
           "smoothies": [
             "Strawberry Banana", 
             "Mixed Berry", 
