@@ -1,4 +1,8 @@
 {
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd client/ && npm start"
+  },
   "dependencies": {
     "create-react-app": "^5.0.1"
   }
