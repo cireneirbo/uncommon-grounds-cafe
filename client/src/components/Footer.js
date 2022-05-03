@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <main>
-      <div className="footer">
+      <fieldset className="footer">
         
 
         <ul className="footer-list"> 
@@ -27,7 +27,7 @@ function Footer() {
             <Link to="/contact" className="footer-link">Contact</Link>
           </li>
         </ul>
-      </div>
+      </fieldset>
     </main>
   );
 }
