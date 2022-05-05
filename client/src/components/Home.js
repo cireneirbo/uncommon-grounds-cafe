@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <main>
+    <main class="main">
       <br></br>
       <fieldset>
         <h1>Home</h1>

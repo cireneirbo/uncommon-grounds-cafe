@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <main>
+    <main class="main">
       <fieldset className="nav-bar">
         <h1>Uncommon Grounds Cafe</h1>
 
