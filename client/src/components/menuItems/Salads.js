@@ -3,7 +3,7 @@ function Salads(props) {
   let data = props.data;
   
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[4].title}</h1>
       <p>{data.menu[4].description}</p>
@@ -27,7 +27,7 @@ function Salads(props) {
         ))}
       </ul>
       
-    </fieldset>
+    </div>
   );
 }
 

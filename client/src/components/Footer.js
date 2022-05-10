@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <main>
-      <fieldset className="footer">
+      <div className="box-shadow">
         
 
-        <ul className="footer-list"> 
+        <ul className="footer"> 
           <li>
             <Link to="/" className="footer-link">Home</Link>
           </li>
@@ -27,7 +27,7 @@ function Footer() {
             <Link to="/contact" className="footer-link">Contact</Link>
           </li>
         </ul>
-      </fieldset>
+      </div>
     </main>
   );
 }

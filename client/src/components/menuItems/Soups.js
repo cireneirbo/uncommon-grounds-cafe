@@ -3,7 +3,7 @@ function Soups(props) {
   let data = props.data;
   
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[5].title}</h1>
       <p>{data.menu[5].description}</p>
@@ -14,7 +14,7 @@ function Soups(props) {
       </ul>
       <p>{data.menu[5].currentChoice}</p>
       
-    </fieldset>
+    </div>
   );
 }
 

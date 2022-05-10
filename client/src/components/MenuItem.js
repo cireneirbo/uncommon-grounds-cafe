@@ -28,15 +28,15 @@ function MenuItem() {
   if(data == "") {
     return (
       <main>
-        <fieldset>
+        <div className="box-shadow">
           <p>Awaiting API data...</p>
-        </fieldset>
+        </div>
       </main>
     );
   } else {
     return (
       <main>
-        <fieldset>
+        <div className="box-shadow">
 
           {/* <h1>{data.title}</h1>
 
@@ -61,7 +61,7 @@ function MenuItem() {
           
 
 
-        </fieldset>
+        </div>
       </main>
     );
   }

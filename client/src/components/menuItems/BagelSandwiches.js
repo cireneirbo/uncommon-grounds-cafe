@@ -3,7 +3,7 @@ function BagelSandwiches(props) {
   let data = props.data;
   
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[1].title}</h1>
       <p>{data.menu[1].description}</p>
@@ -13,7 +13,7 @@ function BagelSandwiches(props) {
         ))}
       </ul>
       
-    </fieldset>
+    </div>
   );
 }
 

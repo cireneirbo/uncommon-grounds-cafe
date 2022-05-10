@@ -1,11 +1,11 @@
 function Error() {
   return (
     <main>
-      <fieldset>
+      <div className="box-shadow">
         <h1>Unknown URL</h1>
       
         <p>There's nothing here! Click a navigation link to escape this barren wasteland!</p>
-      </fieldset>
+      </div>
     </main>
   );
 }

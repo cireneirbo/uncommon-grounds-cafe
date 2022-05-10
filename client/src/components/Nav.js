@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <main class="main">
-      <fieldset className="nav-bar">
+      <div className="box-shadow">
         <h1>Uncommon Grounds Cafe</h1>
 
         <nav className="App-link"> 
@@ -12,7 +12,7 @@ function Nav() {
           <Link to="/about" className="App-link">About</Link> |{" "}
           <Link to="/contact" className="App-link">Contact</Link>
         </nav>
-      </fieldset>
+      </div>
     </main>
   );
 }

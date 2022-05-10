@@ -3,7 +3,7 @@ function Hiring() {
   return (
     <main>
 
-      <fieldset>
+      <div className="box-shadow">
 
         <h1>Work at Uncommon Grounds Cafe!</h1>
 
@@ -18,7 +18,7 @@ function Hiring() {
           </p>
         
           
-      </fieldset>
+      </div>
         
     </main>
   );

@@ -3,7 +3,7 @@ function Desserts(props) {
   let data = props.data;
 
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[8].title}</h1>
       <p>{data.menu[8].description}</p>
@@ -13,7 +13,7 @@ function Desserts(props) {
         ))}
       </ul>
 
-    </fieldset>
+    </div>
   );
 }
 

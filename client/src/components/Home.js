@@ -2,13 +2,13 @@ function Home() {
   return (
     <main class="main">
       <br></br>
-      <fieldset>
+      <div className="box-shadow">
         <h1>Home</h1>
       
         <p>
           Welcome to the cafe! We hope you'll stay for some tea and biscuits!
         </p>
-      </fieldset>
+      </div>
     </main>
   );
 }

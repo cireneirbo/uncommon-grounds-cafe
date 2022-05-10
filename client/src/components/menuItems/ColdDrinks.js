@@ -3,7 +3,7 @@ function ColdDrinks(props) {
   let data = props.data;
 
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[7].title}</h1>
       <p>{data.menu[7].description}</p>
@@ -30,7 +30,7 @@ function ColdDrinks(props) {
         ))}
       </ul>
       
-    </fieldset>
+    </div>
   );
 }
 

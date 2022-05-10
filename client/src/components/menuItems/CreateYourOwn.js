@@ -3,7 +3,7 @@ function CreateYourOwn(props) {
   let data = props.data;
   
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[2].title}</h1>
       <p>{data.menu[2].description}</p>
@@ -32,7 +32,7 @@ function CreateYourOwn(props) {
         ))}
       </ul>
       
-    </fieldset>
+    </div>
   );
 }
 

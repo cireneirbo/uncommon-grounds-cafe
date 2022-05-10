@@ -3,7 +3,7 @@ function Contact() {
   return (
     <main>
 
-      <fieldset>
+      <div className="box-shadow">
 
         <h1>Contact Us</h1>
 
@@ -18,7 +18,7 @@ function Contact() {
         </iframe>
         
           
-      </fieldset>
+      </div>
         
     </main>
   );

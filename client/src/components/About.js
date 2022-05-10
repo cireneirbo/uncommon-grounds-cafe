@@ -3,7 +3,7 @@ function About() {
   return (
     <main>
 
-      <fieldset>
+      <div className="box-shadow">
 
         <h1>About Uncommon Grounds Cafe</h1>
 
@@ -18,7 +18,7 @@ function About() {
           </p>
         
           
-      </fieldset>
+      </div>
         
     </main>
   );

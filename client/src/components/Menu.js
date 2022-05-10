@@ -31,9 +31,9 @@ function Menu() {
   if(data === "") {
     return (
       <main>
-        <fieldset>
+        <div className="box-shadow">
           <p>Awaiting API data...</p>
-        </fieldset>
+        </div>
       </main>
     );
   } else {

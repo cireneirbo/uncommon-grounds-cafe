@@ -3,7 +3,7 @@ function BreakfastSandwich(props) {
   let data = props.data;
   
   return (
-    <fieldset>
+    <div className="box-shadow">
 
       <h1>{data.menu[3].title}</h1>
       <p>{data.menu[3].description}</p>
@@ -13,7 +13,7 @@ function BreakfastSandwich(props) {
         ))}
       </ul>
       
-    </fieldset>
+    </div>
   );
 }
 
