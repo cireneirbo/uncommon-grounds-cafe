@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uncommon-grounds-cafe/static/css/main.e4027743.css",
-    "main.js": "/uncommon-grounds-cafe/static/js/main.edc7f522.js",
+    "main.js": "/uncommon-grounds-cafe/static/js/main.0ec62ed8.js",
     "static/media/fancycoffeeshop.jpg": "/uncommon-grounds-cafe/static/media/fancycoffeeshop.64140363d0e4892055a6.jpg",
     "index.html": "/uncommon-grounds-cafe/index.html",
     "main.e4027743.css.map": "/uncommon-grounds-cafe/static/css/main.e4027743.css.map",
-    "main.edc7f522.js.map": "/uncommon-grounds-cafe/static/js/main.edc7f522.js.map"
+    "main.0ec62ed8.js.map": "/uncommon-grounds-cafe/static/js/main.0ec62ed8.js.map"
   },
   "entrypoints": [
     "static/css/main.e4027743.css",
-    "static/js/main.edc7f522.js"
+    "static/js/main.0ec62ed8.js"
   ]
 }
