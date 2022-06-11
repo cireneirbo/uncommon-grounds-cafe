@@ -5,15 +5,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 ## Dependencies
-* [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
-* [@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
-* [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event)
-* [axios](https://www.npmjs.com/package/axios)
-* [gh-pages](https://www.npmjs.com/package/gh-pages)
-* [react](https://www.npmjs.com/package/react)
-* [react-dom](https://www.npmjs.com/package/react-dom)
-* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
-* [react-scripts](https://www.npmjs.com/package/react-scripts)
+* [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom) - Custom jest matchers to test the state of the DOM.
+* [@testing-library/react](https://www.npmjs.com/package/@testing-library/react) - Simple and complete React DOM testing utilities that encourage good testing practices.
+* [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event) - Fire events the same way the user does.
+* [axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js.
+* [gh-pages](https://www.npmjs.com/package/gh-pages) - Publish files to a gh-pages branch on GitHub (or any other branch anywhere else).
+* [react](https://www.npmjs.com/package/react) - React is a JavaScript library for creating user interfaces.
+* [react-dom](https://www.npmjs.com/package/react-dom) - This package serves as the entry point to the DOM and server renderers for React.
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - The react-router-dom package contains bindings for using React Router in web applications.
+* [react-scripts](https://www.npmjs.com/package/react-scripts) - This package includes scripts and configuration used by Create React App.
 
 ## Available Scripts
 In the project directory, you can run:
