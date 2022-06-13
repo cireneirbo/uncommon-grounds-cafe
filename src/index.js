@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Menu from './components/Menu';
-import MenuItem from './components/MenuItem';
-import About from './components/About';
-import Contact from './components/Contact';
-import Hiring from './components/Hiring';
-import Error from './components/Error';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import MenuItem from './pages/MenuItem';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Hiring from './pages/Hiring';
+import Error from './pages/Error';
 import './index.css';
 import App from './App';
 

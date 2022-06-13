@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import Data from './Data';
-import Bagels from './menuItems/Bagels';
-import BagelSandwiches from './menuItems/BagelSandwiches';
-import BreakfastSandwich from './menuItems/BreakfastSandwich';
-import ColdDrinks from './menuItems/ColdDrinks';
-import CreateYourOwn from './menuItems/CreateYourOwn';
-import Desserts from './menuItems/Desserts';
-import HotDrinks from './menuItems/HotDrinks';
-import Salads from './menuItems/Salads';
-import Soups from './menuItems/Soups';
+import Data from '../services/data/Data';
+import Bagels from '../components/menuItems/Bagels';
+import BagelSandwiches from '../components/menuItems/BagelSandwiches';
+import BreakfastSandwich from '../components/menuItems/BreakfastSandwich';
+import ColdDrinks from '../components/menuItems/ColdDrinks';
+import CreateYourOwn from '../components/menuItems/CreateYourOwn';
+import Desserts from '../components/menuItems/Desserts';
+import HotDrinks from '../components/menuItems/HotDrinks';
+import Salads from '../components/menuItems/Salads';
+import Soups from '../components/menuItems/Soups';
 
 function Menu() {
 
