@@ -165,7 +165,7 @@ function Data() {
           ],
         },
         {
-          "title": "ColdDrinks",
+          "title": "Cold Drinks",
           "description": "Beat the heat with one of our signature blends.",
           "titleBlends": "Blends",
           "blends": [

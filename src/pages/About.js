@@ -14,7 +14,7 @@ function About() {
 
         <h3>Who We Are</h3>
           <p>
-            We are a shadowy phantom created by our <a href='https://twitter.com/kalefice' target='_blank' rel="noreferrer">developer</a>. Pray for us.
+            We are a shadowy phantom created by our <a href='https://twitter.com/codeethically' target='_blank' rel="noreferrer">developer</a>. Pray for us.
           </p>
         
           
