@@ -4,6 +4,84 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
+## Routing Explanation
+GitHub Pages allows for React pages to be hosted as frontend web apps.\
+The package [gh-pages](https://www.npmjs.com/package/gh-pages) lets us accomplish this.\
+Normally, it seems, gh-pages is intended for use with single-page apps and doesn't account for advanced routing.\
+Using the format shown below, however, gh-pages will work with advanced routing.\
+To achieve this, I have also combined [react-router-dom](https://www.npmjs.com/package/react-router-dom) to work in tandem with gh-pages.\
+This makes it possible for complicated routing to take place using GitHub Pages.
+
+Typically, routes are listed with a `/` as the base path like:
+```js
+ReactDOM.render(
+  <BrowserRouter>
+    <React.StrictMode>
+      <Routes>
+        <Route path="/" element={<App />} >
+          <Route exact path="" element={<Home />} />
+          <Route exact path="menu" element={<Menu />} />
+          {/* <Route path="menu/:menuItem" element={<MenuItem />} /> */}
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="hiring" element={<Hiring />} />
+          <Route
+            path="*"
+            element={<Error />} 
+          />
+        </Route>
+      </Routes>
+    </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
+```
+
+But this can be updated to show the project's name that will be added by GitHub Pages normally like:
+```js
+ReactDOM.render(
+  <BrowserRouter>
+    <React.StrictMode>
+      <Routes>
+        <Route path="uncommon-grounds-cafe/" element={<App />} >
+          <Route exact path="" element={<Home />} />
+          <Route exact path="menu" element={<Menu />} />
+          {/* <Route path="menu/:menuItem" element={<MenuItem />} /> */}
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="hiring" element={<Hiring />} />
+          <Route
+            path="*"
+            element={<Error />} 
+          />
+        </Route>
+      </Routes>
+    </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
+``` 
+
+And, to use internal links, the navigation routes with slashes should be changed from:
+```js
+<nav className="App-link"> 
+  <Link to="/" className="App-link">Home</Link> |{" "}
+  <Link to="/menu" className="App-link">Menu</Link> |{" "}
+  <Link to="/about" className="App-link">About</Link> |{" "}
+  <Link to="/contact" className="App-link">Contact</Link>
+</nav>
+```
+
+To not having slashes:
+```js
+<nav className="App-link"> 
+  <Link to="" className="App-link">Home</Link> |{" "}
+  <Link to="menu" className="App-link">Menu</Link> |{" "}
+  <Link to="about" className="App-link">About</Link> |{" "}
+  <Link to="contact" className="App-link">Contact</Link>
+</nav>
+```
+
 ## Dependencies
 * [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom) - Custom jest matchers to test the state of the DOM.
 * [@testing-library/react](https://www.npmjs.com/package/@testing-library/react) - Simple and complete React DOM testing utilities that encourage good testing practices.
