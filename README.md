@@ -3,6 +3,9 @@ A fictional coffee shop's website.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
+* Clone or fork this repo.
+* Open in your IDE of choice and install dependents with `npm install` in the command line.
+* Run the program in the command line with `npm start`.
 
 ## Routing Explanation
 GitHub Pages allows for React pages to be hosted as frontend web apps.\
