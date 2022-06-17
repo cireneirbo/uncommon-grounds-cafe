@@ -39,6 +39,8 @@ function Menu() {
   } else {
     return (
       <main>
+        <h1 className='box-shadow'>Menu</h1>
+
         <Bagels data={data}/>
 
         <BagelSandwiches data={data}/>

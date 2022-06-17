@@ -8,13 +8,18 @@ function Hiring() {
         <h1>Work at Uncommon Grounds Cafe!</h1>
 
         <h3>Open Positions</h3>
-          <ul>
-            <li>Trash-master</li>
-          </ul>
+          <table>
+            <tr>
+              <td>Part-time Manager</td>
+            </tr>
+            <tr>
+              <td>Barista</td>
+            </tr>
+          </table>
 
         <h3>What We Offer Employees</h3>
           <p>
-            Limited Compensation. We own you!
+            Competitive pay and flexible scheduling!
           </p>
         
           
