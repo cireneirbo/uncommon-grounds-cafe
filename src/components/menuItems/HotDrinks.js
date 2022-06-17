@@ -7,26 +7,28 @@ function HotDrinks(props) {
 
       <h1>{data.menu[6].title}</h1>
       <p>{data.menu[6].description}</p>
-      
+      <hr></hr>
+
       <h3>{data.menu[6].titleTeas}</h3>
-      <ul>
+      
         {data.menu[6].teas.map(tea => (
           <li key={tea.id}>{tea[0]} - {tea[1]}</li>
         ))}
-      </ul>
+      <hr></hr>
+      
       <h3>Flavors</h3>
-      <ul>
+      
         {data.menu[6].teaFlavors.map(teaFlavor => (
           <li key={teaFlavor.id}>{teaFlavor}</li>
         ))}
-      </ul>
+      <hr></hr>
 
       <h3>{data.menu[6].titleCoffees}</h3>
-      <ul>
+      
         {data.menu[6].coffees.map(coffee => (
           <li key={coffee.id}>{coffee[0]} - {coffee[1]}</li>
         ))}
-      </ul>
+      
       
       </div>
   );

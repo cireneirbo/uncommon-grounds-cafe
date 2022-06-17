@@ -21,7 +21,9 @@ function Hiring() {
           <p>
             Competitive pay and flexible scheduling!
           </p>
-        
+          <p>
+            Come stop in and ask us about filling out an application!
+          </p>
           
       </div>
         

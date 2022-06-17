@@ -7,11 +7,11 @@ function Soups(props) {
 
       <h1>{data.menu[5].title}</h1>
       <p>{data.menu[5].description}</p>
-      <ul>
-        {data.menu[5].soupSizes.map(soupSize => (
-          <li key={soupSize.id}>{soupSize[0]} - {soupSize[1]}</li>
-        ))}
-      </ul>
+      <hr></hr>
+      
+      {data.menu[5].soupSizes.map(soupSize => (
+        <li key={soupSize.id}>{soupSize[0]} - {soupSize[1]}</li>
+      ))}
       <p>{data.menu[5].currentChoice}</p>
       
     </div>

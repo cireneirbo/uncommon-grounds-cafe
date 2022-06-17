@@ -23,18 +23,21 @@ function About() {
           </p>
           <img className="workerImage" src={jessica}></img>
           <hr></hr>
+
           <h4>Steven Meyers</h4>
           <p>
-            Co-owner of the Uncommon Grounds Cafe since 2004. .
+            Co-owner of the Uncommon Grounds Cafe since 2004. Used to ski, but now he is always looking out for those rare surfing days on the Gulf Coast.
           </p>
           <img className="workerImage" src={steven}></img>
           <hr></hr>
+
           <h4>Sparkles</h4>
           <p>
             The goodest pup. "Come give me head scratches!"
           </p>
           <img className="workerImage" src={sparkles}></img>
           <hr></hr>
+
           <p>
             We are a fictional coffee shop created by our <a href='https://twitter.com/codeethically' target='_blank' rel="noreferrer">developer</a>.
           </p>

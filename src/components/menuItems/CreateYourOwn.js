@@ -7,30 +7,34 @@ function CreateYourOwn(props) {
 
       <h1>{data.menu[2].title}</h1>
       <p>{data.menu[2].description}</p>
+      <hr></hr>
+
       <h3>Proteins</h3>
-      <ul>
+      
         {data.menu[2].proteins.map(protein => (
           <li key={protein.id}>{protein}</li>
         ))}
-      </ul>
+      <hr></hr>
+
       <h3>Cheeses</h3>
-      <ul>
+      
         {data.menu[2].cheeses.map(cheese => (
           <li key={cheese.id}>{cheese}</li>
         ))}
-      </ul>
+      <hr></hr>
+
       <h3>Garnishes</h3>
-      <ul>
+      
         {data.menu[2].garnishes.map(garnish => (
           <li key={garnish.id}>{garnish}</li>
         ))}
-      </ul>
+      <hr></hr>
+
       <h3>Condiments</h3>
-      <ul>
+      
         {data.menu[2].condiments.map(condiment => (
           <li key={condiment.id}>{condiment}</li>
         ))}
-      </ul>
       
     </div>
   );

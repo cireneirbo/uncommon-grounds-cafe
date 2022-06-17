@@ -6,6 +6,7 @@ function Home() {
         <p>
           Welcome to the Uncommon Grounds Cafe! We hope you'll stop in for some hot tea and gourmet bagels!
         </p>
+        <p>Discuss your dreams over a cup of coffee in our shop!</p>
       </div>
     </main>
   );
