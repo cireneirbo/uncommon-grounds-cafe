@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/uncommon-grounds-cafe/static/css/main.4ce0353c.css",
-    "main.js": "/uncommon-grounds-cafe/static/js/main.3f659a68.js",
+    "main.css": "/uncommon-grounds-cafe/static/css/main.c2015508.css",
+    "main.js": "/uncommon-grounds-cafe/static/js/main.870111f5.js",
+    "static/media/sparkles-dog.png": "/uncommon-grounds-cafe/static/media/sparkles-dog.a44f7626e56f0b43dd36.png",
+    "static/media/stevenmeyers.jpg": "/uncommon-grounds-cafe/static/media/stevenmeyers.813fcae26135f6b3c8bb.jpg",
+    "static/media/jessicameyers.jpg": "/uncommon-grounds-cafe/static/media/jessicameyers.983710d1f7869be4b949.jpg",
     "static/media/fancycoffeeshop.jpg": "/uncommon-grounds-cafe/static/media/fancycoffeeshop.64140363d0e4892055a6.jpg",
     "index.html": "/uncommon-grounds-cafe/index.html",
-    "main.4ce0353c.css.map": "/uncommon-grounds-cafe/static/css/main.4ce0353c.css.map",
-    "main.3f659a68.js.map": "/uncommon-grounds-cafe/static/js/main.3f659a68.js.map"
+    "main.c2015508.css.map": "/uncommon-grounds-cafe/static/css/main.c2015508.css.map",
+    "main.870111f5.js.map": "/uncommon-grounds-cafe/static/js/main.870111f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce0353c.css",
-    "static/js/main.3f659a68.js"
+    "static/css/main.c2015508.css",
+    "static/js/main.870111f5.js"
   ]
 }
