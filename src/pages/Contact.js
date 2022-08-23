@@ -39,7 +39,7 @@ function Contact() {
               <td>6:30 AM - 7:00 PM</td>
             </tr>
             <tr>
-              <th>Firday</th>
+              <th>Friday</th>
               <td>6:30 AM - 7:00 PM</td>
             </tr>
             <tr>
